@@ -2,6 +2,7 @@ import React from 'react';
 import {ImageBackground} from 'react-native';
 import Icon from 'react-native-vector-icons/AntDesign';
 import Ionicons from 'react-native-vector-icons/Ionicons';
+// import NavigationBar from 'react-native-navbar-color';
 import chamada from '../../images/chamada.jpg';
 import logoNetflix from '../../images/netflix_icon.png';
 
@@ -27,6 +28,10 @@ import {
   TextAssistir,
   BtnText,
 } from './styles';
+
+/* componentDidMount() {
+  NavigationBar.setColor('#1e222b');
+} */
 
 function Home() {
   return (

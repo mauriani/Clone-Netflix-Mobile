@@ -11,3 +11,18 @@ export const Titulo = styled.Text`
   padding: 0 16px;
   margin-bottom: 4px;
 `;
+
+export const ContainerScroll = styled.ScrollView.attrs(() => ({
+  horizontal: true,
+  showsHorizontalScrollIndicator: false,
+  contentContainerStyle: {
+    alignItems: 'center',
+    paddingLeft: 16,
+  },
+}))``;
+
+export const Image = styled.Image`
+  width: 160px;
+  height: 160px;
+  margin-horizontal: 3px;
+`;

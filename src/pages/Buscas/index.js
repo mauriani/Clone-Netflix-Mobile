@@ -1,10 +1,27 @@
 import React from 'react';
-import {View} from 'react-native';
+import {TextInput} from 'react-native';
 
-// import { Container } from './styles';
+import {Container, Titulo, SubTitulo} from './styles';
 
 const Buscas = () => {
-  return <View />;
+  return (
+    <Container>
+      <TextInput
+        style={{
+          height: 40,
+          borderColor: 'gray',
+          borderWidth: 1,
+          backgroundColor: '#c6c6c6',
+          marginTop: 30,
+        }}
+      />
+      <Titulo>Encontre sua próxima história.</Titulo>
+      <SubTitulo>
+        Busque séries para assistir no caminho para o trabalho, filmes para
+        descontrair ou seus gêneros favoritos.
+      </SubTitulo>
+    </Container>
+  );
 };
 
 export default Buscas;
