@@ -7,6 +7,7 @@ import logoNetflix from '../../images/netflix_icon.png';
 
 import Destaques from '../../components/Destaques';
 import EmAlta from '../../components/EmAlta';
+import Top10 from '../../components/Top10';
 
 import {
   Container,
@@ -95,6 +96,7 @@ function Home() {
       </ContainerHeader>
       <Destaques />
       <EmAlta />
+      <Top10 />
     </Container>
   );
 }

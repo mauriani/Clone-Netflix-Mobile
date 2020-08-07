@@ -15,10 +15,11 @@ export const ContainerScroll = styled.ScrollView.attrs(() => ({
 }))``;
 
 export const Titulo = styled.Text`
-  font-size: 18px;
+  font-size: 17px;
   color: #fff;
   font-weight: bold;
   padding: 0 16px;
+  margin-bottom: 4px;
 `;
 
 export const ContainerImagens = styled.TouchableOpacity`
