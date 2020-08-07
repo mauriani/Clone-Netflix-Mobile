@@ -23,15 +23,13 @@ export const Informacoes = styled.View`
 export const Button = styled.TouchableOpacity`
   align-items: center;
   justify-content: center;
-  margin-horizontal: 35px;
+  margin-horizontal: 30px;
 `;
 
 export const Titulos = styled.Text`
   flex: 1;
   font-size: 16px;
   color: #fff;
-  align-items: center;
-  justify-content: space-between;
   margin-top: 15px;
 `;
 

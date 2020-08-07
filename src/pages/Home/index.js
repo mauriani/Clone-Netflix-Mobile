@@ -5,6 +5,9 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 import chamada from '../../images/chamada.jpg';
 import logoNetflix from '../../images/netflix_icon.png';
 
+import Destaques from '../../components/Destaques';
+import EmAlta from '../../components/EmAlta';
+
 import {
   Container,
   ContainerHeader,
@@ -90,6 +93,8 @@ function Home() {
           </BlocoButton>
         </ImageBackground>
       </ContainerHeader>
+      <Destaques />
+      <EmAlta />
     </Container>
   );
 }
