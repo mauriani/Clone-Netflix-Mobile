@@ -13,5 +13,5 @@ Esse é um projeto mobile feito em React Native.
 ### Executando a aplicação
 - react native run/android (Para rodar o projeto)
 
-<img src="![page inicial](https://user-images.githubusercontent.com/32397288/89814268-41091100-db19-11ea-92ac-aa95e1dab38b.jpeg" width="200"> 
+<img src="https://user-images.githubusercontent.com/32397288/89814643-d2788300-db19-11ea-8762-e2b070169c8c.jpeg" width="200"> 
 
