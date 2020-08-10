@@ -1,7 +1,5 @@
 # cloneNetflix
 
-# PicPay Clone
-
 Esse é um projeto mobile feito em React Native.
 
 ### Clonando Projeto 
