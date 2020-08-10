@@ -5,7 +5,7 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import MaterialCommunity from 'react-native-vector-icons/MaterialCommunityIcons';
 import SimpleLineIcons from 'react-native-vector-icons/SimpleLineIcons';
-import AntDesign from 'react-native-vector-icons/AntDesign';
+import EvilIcons from 'react-native-vector-icons/EvilIcons';
 import Home from './pages/Home';
 import Buscas from './pages/Buscas';
 import EmBreve from './pages/EmBreve';
@@ -47,8 +47,8 @@ export default function Routes() {
               );
             }
 
-            iconName = 'plus';
-            return <AntDesign name={iconName} size={20} color={color} />;
+            iconName = 'navicon';
+            return <EvilIcons name={iconName} size={20} color={color} />;
           },
         })}
         tabBarOptions={{
@@ -64,6 +64,7 @@ export default function Routes() {
           component={Home}
           options={{
             title: 'Inicio',
+            headerShown: false,
           }}
         />
         <Tab.Screen
@@ -71,6 +72,7 @@ export default function Routes() {
           component={Buscas}
           options={{
             title: 'Buscas',
+            headerShown: false,
           }}
         />
         <Tab.Screen
@@ -78,6 +80,7 @@ export default function Routes() {
           component={EmBreve}
           options={{
             title: 'Em Breve',
+            headerShown: false,
           }}
         />
         <Tab.Screen
@@ -85,6 +88,7 @@ export default function Routes() {
           component={Downloads}
           options={{
             title: 'Downloads',
+            headerShown: false,
           }}
         />
         <Tab.Screen
@@ -92,6 +96,7 @@ export default function Routes() {
           component={Mais}
           options={{
             title: 'Mais',
+            headerShown: false,
           }}
         />
       </Tab.Navigator>

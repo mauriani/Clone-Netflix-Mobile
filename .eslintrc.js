@@ -2,7 +2,13 @@ module.exports = {
   env: {
     es2020: true,
   },
-  extends: ['plugin:react/recommended', 'airbnb', 'prettier', 'prettier/react'],
+  extends: [
+    'eslint:recommended',
+    'plugin:react/recommended',
+    'airbnb',
+    'prettier',
+    'prettier/react',
+  ],
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
@@ -32,5 +38,6 @@ module.exports = {
     'react/prop-types': 'off',
     'no-param-reassign': 'off',
     'no-console': 'off',
+    'react/destructuring-assignment': 'off',
   },
 };

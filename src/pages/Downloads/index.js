@@ -1,10 +1,13 @@
-import React from 'react';
-import {View} from 'react-native';
+import React, {Component} from 'react';
+import {Container} from './styles';
 
-// import { Container } from './styles';
+export default class Downloads extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
 
-const Downloads = () => {
-  return <View />;
-};
-
-export default Downloads;
+  render() {
+    return <Container />;
+  }
+}

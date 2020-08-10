@@ -1,14 +1,13 @@
-import React from 'react';
-import {View, Text} from 'react-native';
+import React, {Component} from 'react';
+import {Container} from './styles';
 
-// import { Container } from './styles';
+export default class Mais extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
 
-const Mais = () => {
-  return (
-    <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
-      <Text>Home Screen</Text>
-    </View>
-  );
-};
-
-export default Mais;
+  render() {
+    return <Container />;
+  }
+}
