@@ -14,6 +14,4 @@ Esse é um projeto mobile feito em React Native.
 - react native run/android (Para rodar o projeto)
 
 
-<img src="https://user-images.githubusercontent.com/32397288/89814643-d2788300-db19-11ea-8762-e2b070169c8c.jpeg" width="200"> 
-
-<img src="https://user-images.githubusercontent.com/32397288/89814715-f1771500-db19-11ea-8cf9-7184bd5de946.jpeg" width="200"> 
+<img src="https://user-images.githubusercontent.com/32397288/89814643-d2788300-db19-11ea-8762-e2b070169c8c.jpeg" width="200"> | <img src="https://user-images.githubusercontent.com/32397288/89814715-f1771500-db19-11ea-8cf9-7184bd5de946.jpeg" width="200"> 
