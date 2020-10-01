@@ -4,7 +4,6 @@ import {View} from 'react-native';
 import {
   ContainerHeader,
   ImageBackground,
-  FeaturedInfoHorizontal,
   FeaturedInfo,
   Titulo,
   SubTitulo,
@@ -31,12 +30,10 @@ export default ({item}) => {
           uri: `https://image.tmdb.org/t/p/original${item.backdrop_path}`,
         }}
         reziMode="cover">
-        <FeaturedInfoHorizontal>
-          <FeaturedInfo>
-            <Titulo>{item.original_name}</Titulo>
-            <SubTitulo> {genres.join(', ')}</SubTitulo>
-          </FeaturedInfo>
-        </FeaturedInfoHorizontal>
+        <FeaturedInfo>
+          <Titulo>{item.original_name}</Titulo>
+          <SubTitulo> {genres.join(', ')}</SubTitulo>
+        </FeaturedInfo>
       </ImageBackground>
     </ContainerHeader>
   );
