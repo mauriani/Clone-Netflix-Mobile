@@ -1,5 +1,5 @@
 import React from 'react';
-import {Animated, StyleSheet} from 'react-native';
+import {View} from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import Icon from 'react-native-vector-icons/AntDesign';
@@ -7,6 +7,10 @@ import Icon from 'react-native-vector-icons/AntDesign';
 import {
   ContainerHeader,
   ImageBackground,
+  Informacoes,
+  Logo,
+  Button,
+  Titulos,
   BlocoButton,
   BtnLista,
   BtnText,
@@ -16,6 +20,8 @@ import {
   Titulo,
   SubTitulo,
 } from './styles';
+
+import Header from './';
 
 export default ({item}) => {
   // gêneros
@@ -36,6 +42,27 @@ export default ({item}) => {
           colors={['transparent', '#000']}
           start={{x: 0.1, y: 0.1}}
           style={{height: '100%', opacity: 0.91}}>
+          <Informacoes>
+            <Logo
+              source={{
+                uri: `https://www.freepnglogos.com/uploads/netflix-logo-circle-png-5.png`,
+              }}
+              reziMode="cover"
+            />
+
+            <Button>
+              <Titulos>Séries</Titulos>
+            </Button>
+
+            <Button>
+              <Titulos>Filmes</Titulos>
+            </Button>
+
+            <Button>
+              <Titulos>Minha lista</Titulos>
+            </Button>
+          </Informacoes>
+
           <BlocoButton>
             <BtnLista>
               <Icon

@@ -7,7 +7,9 @@ export const ContainerScroll = styled.ScrollView.attrs(() => ({
     alignItems: 'center',
     paddingLeft: 16,
   },
-}))``;
+}))`
+  margin-top: 10px;
+`;
 
 export const Titulo = styled.Text`
   font-size: 17px;
@@ -20,6 +22,6 @@ export const Titulo = styled.Text`
 
 export const Image = styled.Image`
   width: 150px;
-  height: 200px;
+  height: 180px;
   margin-left: 8px;
 `;

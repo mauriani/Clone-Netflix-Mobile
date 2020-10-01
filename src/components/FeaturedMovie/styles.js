@@ -2,7 +2,36 @@ import styled from 'styled-components/native';
 
 export const ContainerHeader = styled.SafeAreaView`
   flex: 1;
-  height: 470px;
+  height: 480px;
+`;
+
+export const Informacoes = styled.View`
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  width: 100%;
+  background-color: transparent;
+  padding: 10px;
+  margin-top: 10px;
+`;
+
+export const Button = styled.TouchableOpacity`
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+`;
+
+export const Logo = styled.Image`
+  height: 40px;
+  width: 40px;
+`;
+
+export const Titulos = styled.Text`
+  flex: 1;
+  font-size: 16px;
+  color: #ddd;
+  margin-top: 15px;
 `;
 
 export const ImageBackground = styled.ImageBackground`
