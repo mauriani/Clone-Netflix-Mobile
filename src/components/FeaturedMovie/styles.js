@@ -6,7 +6,6 @@ export const ContainerHeader = styled.SafeAreaView`
 `;
 
 export const ImageBackground = styled.ImageBackground`
-  flex: 1;
   height: 100%;
   width: 100%;
 `;
