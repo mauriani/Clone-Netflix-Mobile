@@ -129,7 +129,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.househuntingapp"
+        applicationId "com.clonenetflix"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

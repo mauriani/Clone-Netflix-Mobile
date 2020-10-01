@@ -3,7 +3,7 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
-target 'houseHuntingApp' do
+target 'cloneNetflix' do
   config = use_native_modules!
 
   use_react_native!(:path => config["reactNativePath"])
@@ -14,7 +14,7 @@ target 'houseHuntingApp' do
 
   pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
 
-  target 'houseHuntingAppTests' do
+  target 'cloneNetflixTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -29,10 +29,10 @@ target 'houseHuntingApp' do
   end
 end
 
-target 'houseHuntingApp-tvOS' do
-  # Pods for houseHuntingApp-tvOS
+target 'cloneNetflix-tvOS' do
+  # Pods for cloneNetflix-tvOS
 
-  target 'houseHuntingApp-tvOSTests' do
+  target 'cloneNetflix-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end
