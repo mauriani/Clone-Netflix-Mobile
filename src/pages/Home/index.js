@@ -3,6 +3,7 @@ import {View} from 'react-native';
 
 import MovieRow from '../../components/MovieRow';
 import FeaturedMovie from '../../components/FeaturedMovie';
+import Footer from '../../components/Footer';
 import api from '../services/api';
 
 import {Container} from './styles';
@@ -41,6 +42,7 @@ export default () => {
           <MovieRow key={key} title={item.title} items={item.items} />
         ))}
       </View>
+      <Footer />
     </Container>
   );
 };
