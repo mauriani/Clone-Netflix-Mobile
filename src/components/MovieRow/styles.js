@@ -22,6 +22,6 @@ export const Titulo = styled.Text`
 
 export const Image = styled.Image`
   width: 150px;
-  height: 180px;
+  height: 200px;
   margin-left: 8px;
 `;
