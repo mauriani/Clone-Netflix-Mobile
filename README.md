@@ -1,10 +1,11 @@
 # cloneNetflix
 
-Esse é um projeto mobile feito em React Native.
+Esse é um projeto mobile feito em React Native, foi usada a api do tmdb. Você pode acessar o site e criar sua própria API. 
+Site: https://www.themoviedb.org/?language=pt-BR
 
 ### Clonando Projeto 
 
-- git clone https://github.com/mauriani/clonandoPicPay
+- git clone https://github.com/mauriani/cloneNetflix
 
 ### Iniciando o projeto
 
