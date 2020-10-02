@@ -89,8 +89,13 @@ export default ({item}) => {
           </BlocoButton>
 
           <FeaturedInfo>
-            <Titulo>{item.original_name}</Titulo>
-            <SubTitulo> {genres.join(', ')}</SubTitulo>
+            <Titulo style={{fontFamily: 'Roboto-Bold'}}>
+              {item.original_name}
+            </Titulo>
+            <SubTitulo style={{fontFamily: 'Roboto-Medium'}}>
+              {' '}
+              {genres.join(', ')}
+            </SubTitulo>
           </FeaturedInfo>
         </LinearGradient>
       </ImageBackground>

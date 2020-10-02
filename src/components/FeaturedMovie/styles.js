@@ -86,8 +86,7 @@ export const TextAssistir = styled.Text`
 `;
 
 export const Titulo = styled.Text`
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 18px;
   color: #fff;
   margin-top: 15px;
   text-transform: uppercase;
@@ -95,7 +94,6 @@ export const Titulo = styled.Text`
 
 export const SubTitulo = styled.Text`
   font-size: 13px;
-  font-weight: bold;
   color: #fff;
   margin-top: 15px;
 `;

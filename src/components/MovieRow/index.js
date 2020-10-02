@@ -6,7 +6,7 @@ import {ContainerScroll, Titulo, Image} from './styles';
 export default ({title, items}) => {
   return (
     <View style={{marginTop: 20}}>
-      <Titulo>{title}</Titulo>
+      <Titulo style={{fontFamily: 'Roboto-Bold'}}>{title}</Titulo>
       <ContainerScroll>
         {items.results.length > 0 &&
           items.results.map((item, key) => (

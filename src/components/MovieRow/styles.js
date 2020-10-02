@@ -12,9 +12,8 @@ export const ContainerScroll = styled.ScrollView.attrs(() => ({
 `;
 
 export const Titulo = styled.Text`
-  font-size: 17px;
+  font-size: 16px;
   color: #fff;
-  font-weight: bold;
   padding: 0 16px;
   margin-top: 10px;
   margin-bottom: 10px;
