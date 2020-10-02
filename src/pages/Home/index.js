@@ -3,10 +3,9 @@ import {View} from 'react-native';
 
 import MovieRow from '../../components/MovieRow';
 import FeaturedMovie from '../../components/FeaturedMovie';
-import Footer from '../../components/Footer';
 import api from '../services/api';
 
-import {Container} from './styles';
+import {Container, TextDireitos, Footer} from './styles';
 
 export default () => {
   const [movieList, setMovieList] = useState([]);
@@ -42,7 +41,10 @@ export default () => {
           <MovieRow key={key} title={item.title} items={item.items} />
         ))}
       </View>
-      <Footer />
+      <Footer>
+        <TextDireitos>😍 Direitos de imagem para Netflix</TextDireitos>
+        <TextDireitos> Dados retirado do site Themoviedb.org</TextDireitos>
+      </Footer>
     </Container>
   );
 };
