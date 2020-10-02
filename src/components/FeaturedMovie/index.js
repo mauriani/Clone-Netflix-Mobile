@@ -21,8 +21,6 @@ import {
   SubTitulo,
 } from './styles';
 
-import Header from './';
-
 export default ({item}) => {
   // gêneros
   let genres = [];

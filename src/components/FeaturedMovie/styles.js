@@ -1,20 +1,22 @@
 import styled from 'styled-components/native';
 
+import LinearGradient from 'react-native-linear-gradient';
+
+import {getStatusBarHeight} from 'react-native-iphone-x-helper';
+
 export const ContainerHeader = styled.SafeAreaView`
-  flex: 1;
   height: 480px;
   margin-bottom: 10px;
 `;
 
-export const Informacoes = styled.View`
+export const Informacoes = styled(LinearGradient).attrs({
+  start: {x: 1.0, y: 0.5},
+  colors: ['transparent', '#000'],
+})`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  height: 70px;
-  width: 100%;
-  background-color: transparent;
-  padding: 10px;
-  margin-top: 10px;
+  padding-top: ${getStatusBarHeight()}px;
 `;
 
 export const Button = styled.TouchableOpacity`
@@ -29,10 +31,8 @@ export const Logo = styled.Image`
 `;
 
 export const Titulos = styled.Text`
-  flex: 1;
   font-size: 16px;
   color: #ddd;
-  margin-top: 15px;
 `;
 
 export const ImageBackground = styled.ImageBackground`
