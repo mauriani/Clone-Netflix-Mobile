@@ -19,10 +19,3 @@ export const TextDireitos = styled.Text`
   font-size: 13px;
   margin-top: 8px;
 `;
-export const Loading = styled.View`
-  flex: 1;
-  justify-content: center;
-  align-items: center;
-  margin-top: 300px;
-  background-color: #000;
-`;
