@@ -1,6 +1,6 @@
 ## Clone Netflix MObile
 
-<img src="https://user-images.githubusercontent.com/32397288/94930451-cadfb580-049c-11eb-9b2f-4c6a6c128af5.png" width="200"> | <img src="https://user-images.githubusercontent.com/32397288/94930675-2447e480-049d-11eb-9a4b-cd994f421f79.png" width="200"> 
+<img src="https://user-images.githubusercontent.com/32397288/94930451-cadfb580-049c-11eb-9b2f-4c6a6c128af5.png" width="400"> | <img src="https://user-images.githubusercontent.com/32397288/94930675-2447e480-049d-11eb-9a4b-cd994f421f79.png" width="400"> 
 
 
 ## Sobre o projeto
