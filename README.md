@@ -22,7 +22,7 @@ Antes de iniciar você precisar ter o ambiente configurado.
 - nodejs
 
 ```jsx
-git clone https://github.com/mauriani/cloneNetflix
+git clone https://github.com/mauriani/Clone-Netflix-Mobile.git
 ```
 
 Após o download do repositório em sua máquina basta realizar os seguintes comandos:
